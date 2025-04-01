@@ -1,0 +1,8 @@
+<RCC>
+  <qresource prefix="pics">
+    <file>growth.png</file>
+    <file>up.png</file>
+    <file>cryptobackground.jpg</file>
+    <file>cryptobackground_new2.jpg</file>
+  </qresource>
+</RCC>
