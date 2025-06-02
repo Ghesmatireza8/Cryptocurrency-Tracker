@@ -1,7 +1,7 @@
 
-# 💰 Cryptocurrency Tracker
+# 📊 Cryptocurrency Tracker
 
-This project is a cryptocurrency tracker built with Python. It fetches real-time data of various cryptocurrencies and provides users with a simple and effective way to monitor market trends and price movements.
+This is a desktop application built with Python and PyQt5 that allows users to track cryptocurrency information in an intuitive GUI. It also includes real-time charting, icons, and visuals to enhance user experience.
 
 ## 🚀 Features
 
@@ -10,13 +10,23 @@ This project is a cryptocurrency tracker built with Python. It fetches real-time
 - 🔄 Auto-refreshing data
 - 💻 Built with Python and data visualization libraries
 
-## 🛠️ Technologies Used
 
-- Python
-- Requests
-- Matplotlib / Plotly
-- Pandas
-- CoinGecko API (or similar, based on your implementation)
+## 📁 Project Structure
+
+```
+Cryptocurrency-Tracker/
+├── Cryptocurrency_Tracker.py        # Main Python script to run the app
+├── Cryptocurrency_Tracker.ui        # PyQt5 UI file
+├── res.qrc                          # Qt resource file
+├── res.py                           # Compiled Python resource file
+├── icon.png                         # Icon for the app
+├── icon2.png                        # Another icon used in the GUI
+├── photo1.jpg                       # Used in GUI or about section
+├── photo2.jpg                       # Additional image
+├── screenshots/
+│   └── screenshot.PNG               # App UI preview
+└── README.md                        # Project documentation
+```
 
 ## 📷 Screenshot
 
@@ -24,7 +34,7 @@ Here is a screenshot of the main page of the application:
 
 ![Main Screenshot](screenshots/screenshot.PNG)
 
-## 🧰 How to Run
+## ▶️ Getting Started
 
 1. Clone the repository:
    ```bash
@@ -32,35 +42,33 @@ Here is a screenshot of the main page of the application:
    cd Cryptocurrency-Tracker
    ```
 
-2. Install the required dependencies:
+2. Install required packages:
    ```bash
    pip install -r requirements.txt
    ```
 
-3. Run the script:
+3. (Optional) If you modify the `.qrc` file, recompile it using:
    ```bash
-   python main.py
+   pyrcc5 res.qrc -o res.py
    ```
 
-## 📂 Project Structure
+4. Run the app:
+   ```bash
+   python Cryptocurrency_Tracker.py
+   ```
 
-```
-Cryptocurrency-Tracker/
-├── main.py
-├── requirements.txt
-├── screenshots/
-│   └── screenshot.PNG
-└── README.md
-```
+## 📦 Dependencies
+
+- Python 3.x
+- PyQt5
+- Requests
+- (Optional) pyqt5-tools for editing `.ui` files
 
 ## 👤 Author
 
-- Reza Ghesmati — [GitHub Profile](https://github.com/Ghesmatireza8)
+**Reza Ghesmati**  
+[GitHub Profile](https://github.com/Ghesmatireza8)
 
-## 📄 License
+## 📝 License
 
 This project is open source and available under the [MIT License](LICENSE).
-
----
-
-Feel free to contribute, open issues, or suggest new features!
