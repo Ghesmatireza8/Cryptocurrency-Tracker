@@ -23,6 +23,7 @@ Cryptocurrency-Tracker/
 ├── icon2.png                        # Another icon used in the GUI
 ├── photo1.jpg                       # Used in GUI or about section
 ├── photo2.jpg                       # Additional image
+├── LICENSE                          # MIT License file
 ├── screenshots/
 │   └── screenshot.PNG               # App UI preview
 └── README.md                        # Project documentation
